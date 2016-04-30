@@ -1,0 +1,12 @@
+// Happy Fox Chat
+
+<script type="text/javascript">
+window.HFCHAT_CONFIG.onload = function() {
+HFLiveChatView.$container.hide();
+    document.getElementById('hf-chat').addEventListener('click', function(e){
+    e.preventDefault();
+   HFLiveChatView.$container.show();
+    HFLiveChatView.showUserInfoFormView()
+});
+};
+</script>
