@@ -1,0 +1,11 @@
+// Icons Under Add to Cart
+
+add_action( 'woocommerce_after_add_to_cart_button', 'add_content_after_addtocart_button_func' );
+
+function add_content_after_addtocart_button_func() {
+
+// Echo content.
+
+echo '<div class="second_content"><br><div id="images"><center><span>    <a id="hf-chat" href="#">    <img class="help" src="http://103.281.myftpupload.com/wp-content/uploads/2016/03/Help.png" align="middle" style="width:60px;height:74px;border:0;"></a></span>   <a href="#modal"><img class="sizing-charts-icon" src="http://103.281.myftpupload.com/wp-content/uploads/2016/03/Sizing.png" align="middle" style="width:60px;height:74px;border:0;"></a></center></div>​</div>';
+
+}
