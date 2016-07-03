@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Salted | A Responsive Email Template</title>
+<!--
+
+    SALTED | A RESPONSIVE EMAIL TEMPLATE
+    =====================================
+
+    Based on code used and tested by Litmus (@litmusapp)
+    Originally developed by Kevin Mandeville (@KEVINgotbounce)
+    Cleaned up by Jason Rodriguez (@rodriguezcommaj)
+    Presented by A List Apart (@alistapart)
+
+    Email is surprisingly hard. While this has been thoroughly tested, your mileage may vary.
+    It's highly recommended that you test using a service like Litmus and your own devices.
+
+    Enjoy!
+
+ -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<style type="text/css">
+  	#outlook a{
+			padding:0;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
+			line-height:100%;
+		}
+		body,table,td,a{
+			-webkit-text-size-adjust:100%;
+			-ms-text-size-adjust:100%;
+		}
+		table,td{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		body{
+			margin:0;
+			padding:0;
+		}
+		img{
+			border:0;
+			height:auto;
+			line-height:100%;
+			outline:none;
+			text-decoration:none;
+		}
+		table{
+			border-collapse:collapse !important;
+		}
+		body{
+			height:100% !important;
+			margin:0;
+			padding:0;
+			width:100% !important;
+		}
+		.appleBody a{
+			color:#68440a;
+			text-decoration:none;
+		}
+		.appleFooter a{
+			color:#999999;
+			text-decoration:none;
+		}
+		a{
+			text-decoration:none;
+			color:#666666;
+		}
+	@media screen and (max-width: 525px){
+		table[class=wrapper]{
+			width:100% !important;
+		}
+
+}	@media screen and (max-width: 525px){
+		td[class=logo]{
+			text-align:left;
+			padding:20px 0 20px 0 !important;
+		}
+
+}	@media screen and (max-width: 525px){
+		td[class=logo] img{
+			margin:0 auto!important;
+		}
+
+}	@media screen and (max-width: 525px){
+		td[class=mobile-hide]{
+			display:none;
+		}
+
+}	@media screen and (max-width: 525px){
+		img[class=mobile-hide]{
+			display:none !important;
+		}
+
+}	@media screen and (max-width: 525px){
+		img[class=img-max]{
+			max-width:100% !important;
+			height:auto !important;
+		}
+
+}	@media screen and (max-width: 525px){
+		table[class=responsive-table]{
+			width:100%!important;
+		}
+
+}	@media screen and (max-width: 525px){
+		td[class=padding]{
+			padding:10px 5% 15px 5% !important;
+		}
+
+}	@media screen and (max-width: 525px){
+		td[class=padding-copy]{
+			padding:10px 5% 10px 5% !important;
+			text-align:center;
+		}
+
+}	@media screen and (max-width: 525px){
+		td[class=padding-meta]{
+			padding:30px 5% 0px 5% !important;
+			text-align:center;
+		}
+
+}	@media screen and (max-width: 525px){
+		td[class=no-pad]{
+			padding:0 0 20px 0 !important;
+		}
+
+}	@media screen and (max-width: 525px){
+		td[class=no-padding]{
+			padding:0 !important;
+		}
+
+}	@media screen and (max-width: 525px){
+		td[class=section-padding]{
+			padding:50px 15px 50px 15px !important;
+		}
+
+}	@media screen and (max-width: 525px){
+		td[class=section-padding-bottom-image]{
+			padding:50px 15px 0 15px !important;
+		}
+
+}	@media screen and (max-width: 525px){
+		td[class=mobile-wrapper]{
+			padding:10px 5% 15px 5% !important;
+		}
+
+}	@media screen and (max-width: 525px){
+		table[class=mobile-button-container]{
+			margin:0 auto;
+			width:100% !important;
+		}
+
+}	@media screen and (max-width: 525px){
+		a[class=mobile-button]{
+			width:80% !important;
+			padding:15px !important;
+			border:0 !important;
+			font-size:16px !important;
+		}
+
+}</style></head>
+<body style="margin: 0; padding: 0;">
+
+<!-- HEADER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff">
+            <div align="center" style="padding: 0px 15px 0px 15px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="500" class="wrapper">
+                    <!-- LOGO/PREHEADER TEXT -->
+                    <tr>
+                        <td style="padding: 30px 0px 20px 0px;" class="logo">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td bgcolor="#ffffff" width="100" align="center"><a href="http://ofhumans.com" target="_blank"><img alt="Logo" src="http://www.ofhumans.com/wp-content/uploads/2016/04/LogoSite.png" width="65" height="98" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #666666; font-size: 16px;" border="0"></a></td>
+                                    </tr></table></td>
+                                </tr>
+                            </table>
+                        </div></td>
+                    </tr>
+                </table>
+            
+        
+    
+
+
+<!-- ONE COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff" align="center" style="padding: 0px 15px 40px 15px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <!-- COPY -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;" class="padding-copy">Get Reppin'</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">Welcome everyone! If you are receiving this email, you have spoken briefly with a team member about our representative program. What we told you might have sounded simple, but it's about to get a whole lot more complicated. We'll keep it simple for you though. Make sense? Alright, great!<br><br>To start off, we want you to have fun with this! Be creative in the ways you present our brand to people. Secondly, we don't want you to annoy people with it. Don't be toooooo forceful, just a little.<br><br>Now to the technical, yet not boring, stuff. The way this program works is super easy! We give you a coupon code, and you share that code with everyone possible. When people use that code, they get 15% off their order. <br><br>Well you may be wondering what's in it for you. When we release new products, you will be able to choose free products. The number of points you have determines how many free products you get to pick out at each release. For every time that your code is used, you will be awarded 50 points.<br><br>50-150 points = 1 free product<br>200-350 points = 2 free products<br>400-550 points = 3 free products<br>600-750 points = 4 free products<br>800-950 points = 5 free products<br>Have 1000+ points? Contact us.<br><br>Lastly, we have a few things for you. Our first requirement is for you to place "www.ofhumans.com" in your Instagram bio. Secondly, we would like you to mention your coupon code at least once every two weeks in a caption on a post.<br><br>We're very excited to have all of you on board to represent OF HUMANS. We will send out updates every so often about product releases, as well as new things we have for the representative program.<br><br>Bye for now,<br>The OF HUMANS Team</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+<!-- FOOTER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff" align="center">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td style="padding: 50px 0px 20px 0px;">
+                        <!-- UNSUBSCRIBE COPY -->
+                        <table width="500" border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
+                            <tr>
+                                <td align="center" valign="middle" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666;">
+                                    <span class="appleFooter" style="color:#666666;">6251 Yellow Wood Place<br>Sarasota, FL 34241, USA</span><br><i><a href="http://ofhumans.com/account" style="color: #666666; text-decoration: none;">View my account</a></i>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
