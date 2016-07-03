@@ -212,7 +212,7 @@
                                             <td align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;" class="padding-copy">Your order has been shipped!</td>
                                         </tr>
                                         <tr>
-                                            <td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">We would like to thank you once again for shopping with us at OF HUMANS. We have sent out your order, and you can track it by clicking the button below. Some information you will need is your billing email address (<?php echo $billing_email; ?>) and your order number (<?php echo trim( str_replace( '#', '', $order->get_order_number() ) ); ?>).</td>
+                                            <td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">We would like to thank you once again for shopping with us at OF HUMANS. We have sent out your order, and you can track it by clicking the button below. Some information you will need is your billing email address and your order number (<?php echo trim( str_replace( '#', '', $order->get_order_number() ) ); ?>).</td>
                                         </tr>
                                     </table>
                                 </td>
