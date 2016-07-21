@@ -1,12 +1,70 @@
-// Happy Fox Chat
-
-<script type="text/javascript">
+<script>
 window.HFCHAT_CONFIG.onload = function() {
-HFLiveChatView.$container.hide();
-    document.getElementById('hf-chat').addEventListener('click', function(e){
-    e.preventDefault();
-   HFLiveChatView.$container.show();
-    HFLiveChatView.showUserInfoFormView()
-});
+
+  var isAgentOffline,
+    AGENT_STATUS_CHECK_TIMEOUT = 1 * 1000, // 1 second
+    agentStatusCheckIntervalIndex;
+
+  /**
+   * This method will be invoked when agents
+   * are AVAILABLE to take chat
+   */
+  function agentOnline() {
+    console.log('Agents are online');
+jQuery('.offline-status').hide();
+    jQuery('.online-status').show();
+  }
+
+  /**
+   * This method will be invoked when agents
+   * are UNAVAILABLE to take chat
+   */
+  function agentOffline() {
+    console.log('No agents are available');
+    jQuery('.online-status').hide();
+jQuery('.offline-status').show();
+  }
+
+  /**
+   * Checks agent status
+   */
+  function checkAgentStatus() {
+    if (isAgentOffline !== HFLiveChatView.agentsOffline) {
+      HFLiveChatView.agentsOffline ? agentOffline() : agentOnline();
+    }
+    return (isAgentOffline = HFLiveChatView.agentsOffline);
+  }
+
+  /**
+   * Starts to loop to check agent status
+   */
+  function startToCheckAgentStatus() {
+    checkAgentStatus();
+    agentStatusCheckIntervalIndex = window.setInterval(function() {
+      checkAgentStatus();
+    }, AGENT_STATUS_CHECK_TIMEOUT);
+  }
+
+  /**
+   * Stops agent status check loop
+   */
+  function stopToCheckAgentStatus() {
+    window.clearInterval(agentStatusCheckIntervalIndex);
+  }
+
+  startToCheckAgentStatus();
+
+
+  HFLiveChatView.$container.hide();
+  jQuery('.hf-chat').on('click', function(e){
+      e.preventDefault();
+      HFLiveChatView.$container.show();
+      HFLiveChatView.showUserInfoFormView()
+  });
+
+jQuery('.offline-status').on('click', function(e){
+      e.preventDefault();
+  });
+
 };
 </script>
