@@ -1,0 +1,271 @@
+[class^="nm-font-"],[class*=" nm-font-"] {
+    font-family: "nm-font" !important;
+}
+
+.single-product .price [class="amount"]{
+    font-size: 1.7em !important;
+}
+
+.product_title {
+    font-size: 2em !important;
+    margin-top: 0cm;
+}
+
+[class="nm-single-product-top"] {
+    display: none;
+}
+
+[class="woocommerce-tabs wc-tabs-wrapper"] {
+    background-color: #F8F8F8 !important;
+}
+
+[class="posted_in"], [class="tagged_as"] {
+    display: none !important;
+}
+
+a {
+    font-size: 0.95em !important;
+}
+
+[class="hfc-footer-container"]{
+  display: none !important;
+}
+
+[class="hfc-actions-button"]{
+    display: none !important;
+}
+
+[class="hfc-actions-container"]{
+    display: none !important;
+}
+
+[class="price"] {
+    font-style: italic;
+    font-size: small;
+}
+
+[class="amount"] {
+    font-style: normal !important;
+    font-size: ;
+}
+
+[class="amount"]:before {
+    content:"\00a0";
+}
+
+.nm-top-bar-text a{
+    font-size: 12px !important;
+}
+
+.nm-top-bar-text p{
+    font-size: 12px !important;
+}
+
+[class="nm-product-image-icon nm-font nm-font-plus"] {
+    display: none !important;
+}
+
+[class="nm-product-share-wrap"] {
+    display: none !important;
+}
+
+#images{
+    text-align: center;
+}
+
+[class="help"] {
+    margin: 0cm 2cm 0cm 0cm;
+}
+
+[class="woocommerce-variation-availability"]{
+    font-style: italic;
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+[class="myaccount_user"]{
+    padding-bottom: 1cm;
+}
+
+.featherlight .featherlight-image{
+    max-width:;
+    max-height:50%;
+    width:auto;
+}
+
+.featherlight {
+    cursor:pointer;
+}
+
+img{
+    cursor:pointer;
+}
+
+[class="chart-button"]{
+    display: none;
+}
+
+#size-chart {
+    font-family: "helvetica" !important;
+}
+
+.hide-menu {
+    display: none !important;
+}
+
+.nm-header .menu-item {
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    font-size: 12px !important;
+}
+
+.nm-header .sub-menu .menu-item {
+    text-transform: none !important;
+    letter-spacing: 1px !important;
+    font-size: 13px !important;
+}
+
+.nm-shop-filter-menu {
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    font-size: 12px !important;
+}
+
+.sidebar {
+   width: 55px;
+   height: 90px;
+   position: fixed;
+   left: 35px;
+   top: 160px;
+}
+
+.online-status {
+    display: none;
+}
+
+.offline-status {
+    display: none;
+}
+
+.su-online-button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none !important;
+    box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    -webkit-box-sizing: content-box !important;
+    transition: all .2s;
+    -o-transition: all .2s;
+    -ie-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+}
+
+@media only screen and (max-width: 768px) {
+   .sidebar {
+   display: none !important;
+} 
+}
+
+.page-id-1841 #nm-header {
+	display: none !important;
+}
+	
+.page-id-1841 #nm-top-bar {
+	display: none !important;
+}
+
+[class="_51m- pls _51mw"] {
+    display: none !important;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+[class="woocommerce-message"]{
+    padding-bottom: 1cm !important;
+}
+
+[class="woocommerce-message"]::before{
+    content:"Share this link with friends, family, and maybe even strangers. Who knows?! Every time someone purchases something after clicking this link, you'll earn a coupon for 10% off. " !important;
+}
+
+@media only screen and (max-device-width : 414px) {
+[class="su-button su-button-style-flat online-status hf-chat"]{
+    display: none;
+}
+}
+
+@media only screen and (min-device-width: 500px) {
+.mobile-text {
+    display: none;
+}
+}
+
+.nm-top-bar-text {
+    padding-top: 0.15cm;
+    padding-bottom: 0.15cm;
+}
+
+.nm_btn_title {
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
+.header-on-scroll .nm-header {
+    background: rgba(255, 255, 255, 0.94) !important;
+}
+
+.sod_list_wrapper {
+    position: relative !important;
+}
+
+#payment .payment_methods li img {
+    display: none !important;
+}
+
+li {
+    list-style: none !important;
+}
+
+[class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--customer-logout"] {
+    font-style: italic !important;
+}
+
+input[name="save_account_details"] {
+    margin-bottom: 15px !important ;
+    margin-top: 15px !important ;
+}
+
+input[name="save_address"]{
+    margin-bottom: 15px !important ;
+}
+
+[class="nm-logout-button button border"] {
+    font-style: italic !important;
+}
+
+.woocommerce-password-strength {
+    display: none !important;
+}
+
+.woocommerce-password-hint {
+    display: none !important;
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.fade:hover {
+    opacity: 0.8;
+    }
