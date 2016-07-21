@@ -1,0 +1,1 @@
+<div class="woocommerce-message"><?php _e( 'Your Referral URL:','gens-raf'); ?> <i><input style="text-align: center; margin-top: 5px; height: 40px; width: 335px;" type="text" value="<?php echo $refLink; ?>" onclick="this.select();"  readonly="readonly"/></i></div>
