@@ -1,15 +1,9 @@
 // "From [price]"
 
-add_filter('woocommerce_variable_price_html', 'custom_variation_price', 10, 2);
-
-function custom_variation_price( $price, $product ) {
-
-	$price = '';
-
-	if ( !$product->min_variation_price || $product->min_variation_price !== $product->max_variation_price ) {
-		$price .= '<span class="from">' . _x('From', 'min_price', 'woocommerce') . ' </span>';
-		$price .= woocommerce_price($product->get_price());
-	}
-
+add_filter( 'woocommerce_variable_sale_price_html', 'wc_wc20_variation_price_format', 10, 2 );
+add_filter( 'woocommerce_variable_price_html', 'wc_wc20_variation_price_format', 10, 2 );
+function wc_wc20_variation_price_format( $price, $product ) {
+	$min_price = $product->get_variation_price( 'min', true );
+	$price = sprintf( __( 'From %1$s', 'woocommerce' ), wc_price( $min_price ) );
 	return $price;
 }
